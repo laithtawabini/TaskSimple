@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/current_tasks"
+        android:title="Current Tasks"
+        android:icon="@drawable/ic_current_tasks"
+        app:showAsAction="ifRoom"/>
+    <item  android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item android:id="@+id/previous_tasks"
+        android:title="Previous Tasks"
+        android:icon="@drawable/ic_previous_tasks"
+        app:showAsAction="ifRoom"
+        />
+</menu>
